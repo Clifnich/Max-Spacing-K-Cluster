@@ -1,8 +1,5 @@
 package com.puzhen.clustering;
 
-import org.jgrapht.graph.DefaultWeightedEdge;
-import org.jgrapht.graph.SimpleWeightedGraph;
-
 import junit.framework.TestCase;
 
 public class TestUnionFind extends TestCase {

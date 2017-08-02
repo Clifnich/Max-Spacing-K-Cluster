@@ -12,7 +12,6 @@ public class RunAllTests {
 		suite.addTestSuite(TestCluster.class);
 		suite.addTestSuite(TestGraphBuilder.class);
 		suite.addTestSuite(TestMaxSpacing.class);
-		suite.addTestSuite(TestMSKC.class);
 		suite.addTestSuite(TestUnionFind.class);
 		return suite;
 	}
