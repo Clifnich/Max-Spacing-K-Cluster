@@ -57,10 +57,10 @@ public class TestUnionFind extends TestCase {
     }
     
     public void test4() {
-		//SimpleWeightedGraph<String, DefaultWeightedEdge> graph = (new GraphBuilder()).build("clustering1.txt");
-		UnionFind uf = new UnionFind(350);
-		int big = 208;
-		uf.unite(0, big);
-		assertTrue(uf.connected(0, big));
-	}
+	//SimpleWeightedGraph<String, DefaultWeightedEdge> graph = (new GraphBuilder()).build("clustering1.txt");
+	UnionFind uf = new UnionFind(350);
+	int big = 208;
+	uf.unite(0, big);
+	assertTrue(uf.connected(0, big));
+    }
 }
